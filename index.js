@@ -403,6 +403,6 @@ jsCopyButton.addEventListener('click', () => {
     navigator.clipboard.writeText(jsCodeToCopy);
     jsCopyButton.innerText = `Code Copied!`;
     setTimeout(() => {
-        jsCopyButton.innerText = `Copy code - HTML/CSS`;
+        jsCopyButton.innerText = `Copy code - js`;
     }, 1000);
 });
